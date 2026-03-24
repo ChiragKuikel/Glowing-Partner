@@ -136,7 +136,7 @@ export default function HeroSection() {
           Good
         </h1>
 
-        {/* Sub-copy */}
+        {/* Sub-copy 
         <p
           className="mx-auto max-w-xl text-base sm:text-lg leading-relaxed mb-12 font-light"
           style={{
@@ -147,6 +147,7 @@ export default function HeroSection() {
         >
           Your success starts with the right people
         </p>
+        */}
 
         {/* CTAs */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -159,7 +160,7 @@ export default function HeroSection() {
               fontFamily: "'Jost', sans-serif",
             }}
           >
-            <span className="relative z-10">Explore Collection</span>
+            <span className="relative z-10">View Opportunities</span>
             <span className="relative z-10 transition-transform duration-300 group-hover:translate-x-1">→</span>
             <span
               className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
@@ -167,7 +168,7 @@ export default function HeroSection() {
               aria-hidden="true"
             />
           </a>
-
+          {/*
           <a
             href="#story"
             className="inline-flex items-center gap-2 px-10 py-4 text-sm tracking-[0.2em] uppercase font-medium border transition-colors duration-300"
@@ -187,6 +188,7 @@ export default function HeroSection() {
           >
             Our Story
           </a>
+          */}
         </div>
       </div>
 

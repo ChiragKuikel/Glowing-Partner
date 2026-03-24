@@ -28,3 +28,19 @@ body {
 @theme{
   --font-display: "Cormorant Garamond", serif;
 }
+
+@theme{
+  --animate-marquee: marquee 30s linear infinite;
+  @keyframes marquee {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+}
+
+@utility animate-fade-in-scale {
+  animation: var(--animate-fade-in-scale);
+}

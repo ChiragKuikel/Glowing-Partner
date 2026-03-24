@@ -80,9 +80,9 @@ export default function Navbar() {
           {/* Logo */}
           <div className="flex-shrink-0">
             <img
-              src="/Gplogotransparent.png"
+              src="/GpLogoTransparent.png"
               alt="Logo"
-              className="h-12 w-auto object-contain"
+              className="h-20 w-auto object-contain"
             />
           </div>
 
